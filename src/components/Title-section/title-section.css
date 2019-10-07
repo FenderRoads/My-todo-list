@@ -1,0 +1,22 @@
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.title-section h1 {
+  font-size: 40px;
+}
+
+.statistics {
+  font-size: 19px;
+}
+
+.statistics span {
+  font-weight: 700;
+}

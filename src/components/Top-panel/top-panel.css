@@ -1,0 +1,43 @@
+.top-pannel {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.status-filter {
+  display: flex;
+}
+
+.toggle-tab-active {
+  background: #1390d4;
+  color: #fff;
+}
+
+.toggle-tab-item.toggle-tab-active:hover {
+  box-shadow: none;
+  cursor: default;
+}
+
+.toggle-tab-item {
+  padding: 9px 15px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.toggle-tab-item:hover {
+  box-shadow: 0px 0px 5px 2px #1390d4;
+}
+
+.toggle-tab-item:nth-child(2) {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.search-filter {
+  width: 250px;
+  padding-left: 5px;
+}

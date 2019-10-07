@@ -1,0 +1,23 @@
+.bottom-pannel {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 10px;
+}
+
+.add-case {
+  width: 350px;
+  padding-left: 10px;
+}
+
+.add-btn {
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: orange;
+  color: #fff;
+}
